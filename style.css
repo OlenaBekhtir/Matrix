@@ -1,0 +1,60 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+  }
+  
+  .main-container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+  }
+  
+  .square {
+    position: relative;
+    width: 250px;
+    height: 250px;
+    top: 100px;
+    left: 100px;
+    border: 2px solid black;
+    transform: rotate(45deg);
+  }
+  
+  .circle {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .circle span {
+    transform: rotate(-45deg); /* Поворачиваем цифры обратно */
+  }
+  
+  .top-left {
+    top: -15px;
+    left: -15px;
+  }
+  
+  .top-right {
+    top: -15px;
+    right: -15px;
+  }
+  
+  .bottom-left {
+    bottom: -15px;
+    left: -15px;
+  }
+  
+  .bottom-right {
+    bottom: -15px;
+    right: -15px;
+  }
